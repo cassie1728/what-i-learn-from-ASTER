@@ -1,4 +1,4 @@
-# Papers about Text Recognition
+# Papers about Text Recognition No.1
 
 ## ASTER (带有矫正网络的识别模型)
 My understanding about the paper ASTER:An Attentional Scene Text Recognition with Flexible Rectification
