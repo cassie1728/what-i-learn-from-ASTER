@@ -19,3 +19,4 @@ ASTER 的优点在于加入了矫正网络，rectification network 基于STN网�
 
 ![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/aster2.jpg)
 
+    最终识别效果
