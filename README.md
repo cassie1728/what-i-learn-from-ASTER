@@ -19,4 +19,4 @@ ASTER 的优点在于加入了矫正网络，rectification network 基于STN网�
 
 ![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/aster2.jpg)
 
-    最终识别效果
+ASTER的最终识别效果，很大程度上由矫正效果决定，而矫正网络的关键是TPS变换参数的学习，只是一个简单的CNN网络
