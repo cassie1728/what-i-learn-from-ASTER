@@ -30,12 +30,12 @@ ASTER的最终识别效果，很大程度上由矫正效果决定，而矫正网
     
 #### 补充
 
-  在我读论文时有点混淆ASTER和STN的Localization Network部分，这两篇的实现并不太一样。<br>
+　　在我读论文时有点混淆ASTER和STN的Localization Network部分，这两篇的实现并不太一样。<br>
 ![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/stn.jpg)<br>
-  在STN中，CNN网络直接回归出，变换矩阵T的各个参数![](http://chart.googleapis.com/chart?cht=tx&chl=$\theta$)。参数矩阵（仿射变换）可以实现图片的裁剪、旋转、缩放、倾斜、平移。<br><br>
-  补充解释cropping的实现：如果乘的参数矩阵左边的2![](http://chart.googleapis.com/chart?cht=tx&chl=$\times$)2子矩阵（控制大小的参数）行列式小于1，则相当于对图片做了压缩，那么通过grid对应到原图中的四边形的面积就比原图小（在小于原图区域内取点）。
+　　在STN中，CNN网络直接回归出，变换矩阵T的各个参数![](http://chart.googleapis.com/chart?cht=tx&chl=$\theta$)。参数矩阵（仿射变换）可以实现图片的裁剪、旋转、缩放、倾斜、平移。<br><br>
+　　补充解释cropping的实现：如果乘的参数矩阵左边的2![](http://chart.googleapis.com/chart?cht=tx&chl=$\times$)2子矩阵（控制大小的参数）行列式小于1，则相当于对图片做了压缩，那么通过grid对应到原图中的四边形的面积就比原图小（在小于原图区域内取点）。
    <br><br>
-  而在ASTER中，CNN生成控制点K个（2K个坐标参数），然后通过控制点之间的对应求TPS的变换矩阵T。
+　　而在ASTER中，CNN生成控制点K个（2K个坐标参数），然后通过控制点之间的对应求TPS的变换矩阵T。
    <br><br>
-  所以，两个CNN生成的参数是不一样的，但是我觉得ASTER首先生成控制点的方法，有点麻烦，暂时不知道对识别率提高有没有作用。不过，这样确实更方便可视化……
+　　所以，两个CNN生成的参数是不一样的，但是我觉得ASTER首先生成控制点的方法，有点麻烦，暂时不知道对识别率提高有没有作用。不过，这样确实更方便可视化……
    
