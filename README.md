@@ -7,3 +7,5 @@ My understanding about the paper ASTER:An Attentional Scene Text Recognition wit
 
 #### pipeline
 
+![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/aster1.jpg)
+
