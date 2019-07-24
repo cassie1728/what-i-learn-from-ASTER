@@ -31,5 +31,5 @@ ASTER的最终识别效果，很大程度上由矫正效果决定，而矫正网
 #### 补充
 
    在我读论文时有点混淆ASTER和STN的Localization Network部分，这两篇的实现并不太一样。<br>
-![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/aster2.jpg)
-![]()
+![](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/stn.jpg)
+
