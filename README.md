@@ -5,7 +5,7 @@ My understanding about the paper ASTER:An Attentional Scene Text Recognition wit
 <br>
 pytorch版代码实现：https://github.com/ayumiymk/aster.pytorch
 
-### 关于ASTER这篇论文，主要内容在ppt中均有提到，讲解在备注中。
+### 关于ASTER这篇论文，主要内容在[ppt](https://github.com/cassie1728/what-i-learn-from-ASTER/raw/master/ASTER_share.pptx)中均有提到，讲解在备注中。
 
 #### pipeline
 
